@@ -1,0 +1,29 @@
+.histroy-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.histroy-contant {
+  width: 50%;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 0 20px #00bf89;
+  background-color: transparent;
+}
+
+.his-heading,
+.his-item {
+  padding: 20px 100px;
+  background-color: #00bf89;
+}
+
+.his-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: gray;
+}
